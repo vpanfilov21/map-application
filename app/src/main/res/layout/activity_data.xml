@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="40pt"
+            android:layout_height="12pt"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/client_name"
+            android:id="@+id/textView"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="40pt"
+            android:layout_height="12pt"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/client_surname"
+            android:id="@+id/textView2"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/textView"
+            android:layout_toEndOf="@+id/textView" />
+
+        <TextView
+            android:layout_width="65pt"
+            android:layout_height="12pt"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/client_address"
+            android:id="@+id/textView3"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/textView2"
+            android:layout_toEndOf="@+id/textView2" />
+
+        <TextView
+            android:layout_width="25pt"
+            android:layout_height="12pt"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/client_isOnline"
+            android:id="@+id/textView4"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/textView3"
+            android:layout_toEndOf="@+id/textView3"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:layout_width="40pt"
+            android:layout_height="20pt"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Василий"
+            android:id="@+id/textView5"
+            android:layout_below="@+id/textView"
+            android:layout_toLeftOf="@+id/textView2"
+            android:layout_toStartOf="@+id/textView2" />
+
+        <TextView
+            android:layout_width="40pt"
+            android:layout_height="20pt"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Иванов"
+            android:id="@+id/textView6"
+            android:layout_below="@+id/textView"
+            android:layout_toLeftOf="@+id/textView3"
+            android:layout_toStartOf="@+id/textView3" />
+
+        <TextView
+            android:layout_width="65pt"
+            android:layout_height="20pt"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Майская, 3"
+            android:id="@+id/textView7"
+            android:layout_below="@+id/textView2"
+            android:layout_toRightOf="@+id/textView2"
+            android:layout_toEndOf="@+id/textView2" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="25pt"
+            android:layout_height="15pt"
+            android:id="@+id/mayskayaButton"
+            android:onClick="onMayskayaClick"
+            android:layout_alignBottom="@+id/textView5"
+            android:layout_toRightOf="@+id/textView7"
+            android:layout_toEndOf="@+id/textView7"
+            android:layout_alignTop="@+id/textView7"
+            android:background="#00ff00" />
+
+        <TextView
+            android:layout_width="65pt"
+            android:layout_height="20pt"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Энгельса,11"
+            android:id="@+id/textView8"
+            android:layout_below="@+id/textView6"
+            android:layout_toRightOf="@+id/textView9"
+            android:layout_toEndOf="@+id/textView9" />
+
+        <TextView
+            android:layout_width="40pt"
+            android:layout_height="20pt"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Петров"
+            android:id="@+id/textView9"
+            android:layout_below="@+id/textView5"
+            android:layout_toRightOf="@+id/textView5"
+            android:layout_toEndOf="@+id/textView5" />
+
+        <TextView
+            android:layout_width="65pt"
+            android:layout_height="20pt"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Иван"
+            android:id="@+id/textView10"
+            android:layout_below="@+id/textView5"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_toLeftOf="@+id/textView6"
+            android:layout_toStartOf="@+id/textView6" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="25pt"
+            android:layout_height="15pt"
+            android:id="@+id/button2"
+            android:layout_alignBottom="@+id/textView8"
+            android:layout_toRightOf="@+id/textView8"
+            android:layout_toEndOf="@+id/textView8"
+            android:layout_below="@+id/mayskayaButton"
+            android:background="#ff0000" />
+
+        <TextView
+            android:layout_width="40pt"
+            android:layout_height="20pt"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Пётр"
+            android:id="@+id/textView11"
+            android:layout_below="@+id/textView10"
+            android:layout_toLeftOf="@+id/textView9"
+            android:layout_toStartOf="@+id/textView9" />
+
+        <TextView
+            android:layout_width="40pt"
+            android:layout_height="20pt"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Васильев"
+            android:id="@+id/textView12"
+            android:layout_alignTop="@+id/textView11"
+            android:layout_toRightOf="@+id/textView11"
+            android:layout_toEndOf="@+id/textView11" />
+
+        <TextView
+            android:layout_width="65pt"
+            android:layout_height="20pt"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Декабристов,7"
+            android:id="@+id/textView13"
+            android:layout_alignTop="@+id/textView12"
+            android:layout_toRightOf="@+id/textView12"
+            android:layout_toEndOf="@+id/textView12" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="25pt"
+            android:layout_height="15pt"
+            android:id="@+id/dekabristovButton"
+            android:onClick="onDekabristovClick"
+            android:layout_alignBottom="@+id/textView13"
+            android:layout_toRightOf="@+id/textView8"
+            android:layout_toEndOf="@+id/textView8"
+            android:layout_below="@+id/button2"
+            android:background="#00ff00" />
+
+</RelativeLayout>

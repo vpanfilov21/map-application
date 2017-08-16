@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Black Screen Application</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="client_name">Имя</string>
+    <string name="client_surname">Фамилия</string>
+    <string name="client_address">Адрес</string>
+    <string name="client_isOnline">Онлайн</string>
+</resources>
